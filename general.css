@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #f9faf8;
+  line-height: 1.5;
+  background-color: #1f2937;
+
+  /* 62.5% makes em=10px */
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 120em;
+  margin: 0 auto;
+}
+
+.heading-primary {
+  font-size: 4.2em;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 1.6em;
+  text-transform: capitalize;
+}
+
+.heading-secondary {
+  font-size: 3.6em;
+  font-weight: 900;
+  color: #1f2937;
+  line-height: 1.2;
+  margin-bottom: 1.6em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.subheading {
+  font-size: 2.4em;
+  font-weight: 800;
+  margin-bottom: 0.1em;
+}
+
+.spacing {
+  margin-bottom: 1em;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  padding: 1em 3em;
+  background-color: #3882f6;
+  border-radius: 4px;
+  font-weight: 800;
+  transition: all 0.3s;
+  color: inherit;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #609bf8;
+}
